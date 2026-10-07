@@ -1,0 +1,64 @@
+h1 {
+    color:rgb(248, 245, 252);
+    text-align:center;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ nav ul{
+    background-color:rgb(190, 239, 255);
+    display:flex; 
+    justify-content: center;
+    align-items:center;
+
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+
+    border-radius: 10px;
+ }
+
+ nav a{
+    color:white;
+    text-decoration:solid;
+    padding: 10px 20px;
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 40px; 
+ }
+
+ nav a:hover {
+
+    background-color: blue;
+    color:lightcyan;
+ }
+
+ h2 {
+    text-align: center;
+    font-family:"Isometra", serif;
+ }
+
+}
+
+
+ #about_page {
+    font-family: "Isometra", serif;
+    font-size: large;
+    color: blueviolet;
+    background-color: rgb(36, 104, 206);
+ }
+
+ img {
+    width: 200px;
+    float: left;
+    margin-right:20px;
+ }
+
+ body{
+    background-color: rgb(116, 195, 247);
+ }
