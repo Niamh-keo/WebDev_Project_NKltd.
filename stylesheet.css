@@ -43,9 +43,6 @@ h1 {
     font-family:"Isometra", serif;
  }
 
-}
-
-
  #about_page {
     font-family: "Isometra", serif;
     font-size: large;
@@ -61,4 +58,17 @@ h1 {
 
  body{
     background-color: rgb(116, 195, 247);
+ }
+
+ .banner{
+   background-image: url('background.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding: 40px;
+ }
+
+ #contact_info {
+   color: rgb(233, 93, 186);
+
  }
