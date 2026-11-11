@@ -6,7 +6,7 @@ h1 {
     box-sizing:border-box;
 }
  nav ul{
-    background-color:rgb(190, 239, 255);
+    background-color:rgb(22, 160, 206);
     display:flex; 
     justify-content: center;
     align-items:center;
@@ -39,21 +39,33 @@ h1 {
  }
 
  h2 {
-    text-align: center;
+    text-align:center;
     font-family:"Isometra", serif;
+ }
+
+ h3{
+   text-align: center;
+   color: rgb(78, 60, 77);
  }
 
  #about_page {
     font-family: "Isometra", serif;
     font-size: large;
-    color: blueviolet;
-    background-color: rgb(36, 104, 206);
+    color: rgb(238, 255, 0);
+   
+     background-image: url('snow.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   padding: 40px;
  }
 
  img {
     width: 200px;
-    float: left;
-    margin-right:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500;
  }
 
  body{
@@ -61,18 +73,28 @@ h1 {
  }
 
  .banner{
-   background-image: url('background.jpg');
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   padding: 40px;
+  
  }
 
  #contact_info {
-   color: rgb(246, 250, 39);
+   color: rgb(42, 38, 78);
+   text-align: center;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 140%;
 
  }
 
  #about_us {
-   color:rgb(246, 250, 39)
+   color: rgb(42, 38, 78);
+   text-align: center;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: 125%;
+ }
+
+ #Holiday_destinations{
+   color:rgb(13, 14, 15);
+   text-align: center;
+   
  }
